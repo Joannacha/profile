@@ -10,6 +10,11 @@ img {
   box-shadow: 2px 2px 5px grey;
 }
 
+img:hover {
+  opacity: 0.4;
+  transition-duration: 2s;
+}
+
 h1 {
   letter-spacing: 0.05em;
   margin-top: 0;
@@ -69,7 +74,7 @@ ul {
 
 .link-square > a > i:hover {
   color: darkgrey;
-  font-size: 30px;
+  font-size: 35px;
   transition-duration: 0.5s;
 }
 
