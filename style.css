@@ -1,0 +1,104 @@
+body {
+  background-color: #F9F9F9;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px grey;
+}
+
+h1 {
+  letter-spacing: 0.05em;
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 500;
+  color: #dc9b90;
+  letter-spacing: 0.1em;
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 25px;
+  margin-bottom: 35px;
+  padding: 0 60px;
+}
+
+a {
+  background-color: #dc9b90ad;
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #f1c4bcad;
+  transition-duration: 0.5s;
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: -7px 12px 14px 0px #d3d3d3a6;
+}
+
+ul {
+  padding: 0;
+}
+
+.link-square {
+  display: inline;
+}
+
+.link-square a {
+  background-color: transparent;
+  padding: 0;
+  color: #d3d3d3;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.link-square > a > i:hover {
+  color: darkgrey;
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+#follow {
+  padding: 10px 30px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
